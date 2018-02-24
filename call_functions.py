@@ -1,6 +1,6 @@
 #Call a list of phone numbers from a .txt file 
 
-def addNumber:
+def addNumber():
     import subprocess as sp
     number = ''
     while number != 'q':
@@ -9,7 +9,7 @@ def addNumber:
     return
 
 #load phone numbers
-def loadPhoneNums:
+def loadPhoneNums():
     import pygooglevoice
     with open(spammers.txt, 'r') as file:
         phoneNumbers = file.read().replace('\n','')
@@ -17,7 +17,7 @@ def loadPhoneNums:
     return recipientNums
 
 #text to speech here and saves the text as an MP3
-def speechToText:
+def speechToText():
     from gtts import gTTS
     import subprocess as sp
 
@@ -36,5 +36,5 @@ def sendText(recipientNums):
     voice.send_sms(recipientNum,origintext)
     print("SMS sent to "+toNum)
 
-def makeCall(recipient,fromNum):
+#def makeCall(recipient,fromNum):
     
