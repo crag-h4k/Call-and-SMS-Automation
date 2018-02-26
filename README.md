@@ -4,7 +4,7 @@ Add phone numbers to contact to phoneNumbers.txt
 
 
 ##TODO:
-*Get Api key
-*Get Scammed
-*???
-*Profit
+* Get Api key
+* Get Scammed
+* ???
+* Profit
