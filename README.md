@@ -8,3 +8,6 @@ Add phone numbers to contact to phoneNumbers.txt
 * Get Scammed
 * ???
 * Profit
+
+So I got a text from this number, 12408306533 which stated, "Find your strategy to success https://goo.gl/CE28bt" 
+Obviously no one should click this link because it is most obviously a phishing attack. We would like to make this script kiddie regret his decision to phish me.
